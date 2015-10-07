@@ -53,5 +53,9 @@
     "chalk": "~1.0.0",
     "uglify-save-license": "~0.4.1",
     "wrench": "~1.5.8"
-  }
+  },
+    "scripts": {
+    "start": "node server/index"
+  },
+  "main": "server/index.js"
 }

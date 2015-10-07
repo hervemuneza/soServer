@@ -11,10 +11,10 @@ var all = {
   root: path.normalize(__dirname + '/../..'),
 
   // Server port
-  port: process.env.PORT || 9000,
+  port: process.env.OPENSHIFT_NODEJS_PORT || 8080,
 
   // Server IP
-  ip: '0.0.0.0',
+  ip: process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1",
 
 };
 
